@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "mapcoordinates",
+	"version": "${version}",
+	"name": "Filled Map Coordinates",
+	"description": "A small mod that records where an empty map is filled and uses that to show coordinates of the area a filled map is covering.",
+	"authors": [
+		"Manu"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/filled-map-coordinates",
+		"issues": "https://github.com/manuelgrabowski/FilledMapCoordinates/issues",
+		"sources": "https://github.com/manuelgrabowski/FilledMapCoordinates"
+	},
+	"icon": "assets/mapcoordinates/mapcoordinates.png",
+	"license": "CC-BY-NC-SA-4.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.manu_faktur.mapcoordinates.FilledMapCoordinates"
+		]
+	},
+	"mixins": [
+      "mapcoordinates.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
