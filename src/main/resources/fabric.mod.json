@@ -25,8 +25,18 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.7",
+		"fabric": "*",
+		"fabric-api": "*",
 		"minecraft": ">=1.21.2",
-		"java": ">=21",
-		"fabric-api": "*"
+		"java": ">=21"
+	},
+	"custom": {
+		"mc-publish": {
+			"modrinth": "2SRiBKfr",
+			"loaders": [
+				"fabric",
+				"quilt"
+			]
+		}
 	}
 }
